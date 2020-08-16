@@ -16,6 +16,7 @@
 		EA37594C24E9D7E900CC068B /* MemoryItems.json in Resources */ = {isa = PBXBuildFile; fileRef = EA37594B24E9D7E900CC068B /* MemoryItems.json */; };
 		EA37595124E9D85000CC068B /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37595024E9D85000CC068B /* MemoryItem.swift */; };
 		EA37595324E9DAD900CC068B /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37595224E9DAD900CC068B /* MemoryViewController.swift */; };
+		EA37595524E9F27B00CC068B /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37595424E9F27B00CC068B /* MemoryDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EA37594B24E9D7E900CC068B /* MemoryItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MemoryItems.json; sourceTree = "<group>"; };
 		EA37595024E9D85000CC068B /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
 		EA37595224E9DAD900CC068B /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		EA37595424E9F27B00CC068B /* MemoryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				EA37593924E9D5F700CC068B /* SceneDelegate.swift */,
 				EA37593724E9D5F700CC068B /* AppDelegate.swift */,
 				EA37595224E9DAD900CC068B /* MemoryViewController.swift */,
+				EA37595424E9F27B00CC068B /* MemoryDataSource.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA37593C24E9D5F700CC068B /* ViewController.swift in Sources */,
+				EA37595524E9F27B00CC068B /* MemoryDataSource.swift in Sources */,
 				EA37593824E9D5F700CC068B /* AppDelegate.swift in Sources */,
 				EA37593A24E9D5F700CC068B /* SceneDelegate.swift in Sources */,
 				EA37595124E9D85000CC068B /* MemoryItem.swift in Sources */,
