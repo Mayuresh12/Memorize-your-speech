@@ -31,7 +31,7 @@ class MemoryViewController: UIViewController {
         blankCounter += 1
         showText(for: item)
     }
-    func showText(for memoryText: MemoryItem) -> NSAttributedString {
+   @discardableResult func showText(for memoryText: MemoryItem) -> NSAttributedString {
         let words = item.text.components(separatedBy: " ")
         let output = NSMutableAttributedString()
         let space = NSAttributedString(string: " ", attributes: visibleText)
