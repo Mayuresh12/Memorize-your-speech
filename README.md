@@ -20,3 +20,7 @@ User can recite the speech on their device word by word.
 - Xcode 11.3.1
 - Swift 5
 - Git
+
+### Future improvement
+- Implement core data.
+- Add functionality for user to enter there own speech.
